@@ -1,0 +1,30 @@
+[submodule "AVP"]
+	path = AVP
+	url = https://github.com/nova-video-player/aos-AVP.git
+[submodule "FileCoreLibrary"]
+	path = FileCoreLibrary
+	url = https://github.com/nova-video-player/aos-FileCoreLibrary.git
+[submodule "MediaLib"]
+	path = MediaLib
+	url = https://github.com/nova-video-player/aos-MediaLib.git
+[submodule "Video"]
+	path = Video
+	url = https://github.com/nova-video-player/aos-Video.git
+[submodule "native/avos"]
+	path = native/avos
+	url = https://github.com/nova-video-player/aos-avos.git
+[submodule "native/audiocompress"]
+	path = native/audiocompress
+	url = https://github.com/nova-video-player/aos-audiocompress.git
+[submodule "native/ffmpeg-android-builder"]
+	path = native/ffmpeg-android-builder
+	url = https://github.com/nova-video-player/aos-ffmpeg-android-builder.git
+[submodule "native/libyuv"]
+	path = native/libyuv
+	url = https://github.com/nova-video-player/aos-libyuv.git
+[submodule "native/libnativehelper"]
+	path = native/libnativehelper
+	url = https://github.com/nova-video-player/aos-libnativehelper.git
+[submodule "native/android-libs"]
+	path = native/android-libs
+url = https://github.com/nova-video-player/aos-android-libs.git
