@@ -33,3 +33,12 @@
 [submodule "native/android-libs"]
 	path = native/android-libs
 	url = https://github.com/nova-video-player/aos-android-libs.git
+[submodule "native/boost"]
+	path = native/boost
+	url = https://github.com/nova-video-player/aos-boost
+[submodule "native/torrentd"]
+	path = native/torrentd
+	url = https://github.com/nova-video-player/aos-torrentd
+[submodule "native/libtorrent"]
+	path = native/libtorrent
+	url = https://github.com/nova-video-player/aos-libtorrent
