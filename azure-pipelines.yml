@@ -5,6 +5,9 @@
 
 pool:
   vmImage: 'Ubuntu 16.04'
+  
+- checkout:self
+  submodules: true
 
 steps:
 - script: make
