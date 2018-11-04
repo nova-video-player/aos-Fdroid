@@ -1,6 +1,7 @@
 [submodule "AVP"]
 	path = AVP
 	url = https://github.com/nova-video-player/aos-AVP.git
+	branch = nova
 [submodule "FileCoreLibrary"]
 	path = FileCoreLibrary
 	url = https://github.com/nova-video-player/aos-FileCoreLibrary.git
