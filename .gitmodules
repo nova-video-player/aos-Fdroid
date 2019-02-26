@@ -25,21 +25,22 @@
 	path = native/ffmpeg-android-builder
 	url = https://github.com/nova-video-player/aos-ffmpeg-android-builder.git
 	branch = nova
+[submodule "native/dav1d-android-builder"]
+	path = native/dav1d-android-builder
+	url = https://github.com/nova-video-player/aos-dav1d-android-builder.git
 [submodule "native/libyuv"]
 	path = native/libyuv
 	url = https://github.com/nova-video-player/aos-libyuv.git
 [submodule "native/libnativehelper"]
 	path = native/libnativehelper
 	url = https://github.com/nova-video-player/aos-libnativehelper.git
-[submodule "native/android-libs"]
-	path = native/android-libs
-	url = https://github.com/nova-video-player/aos-android-libs.git
 [submodule "native/boost"]
 	path = native/boost
 	url = https://github.com/nova-video-player/aos-boost
-[submodule "native/torrentd"]
-	path = native/torrentd
-	url = https://github.com/nova-video-player/aos-torrentd
 [submodule "native/libtorrent"]
 	path = native/libtorrent
 	url = https://github.com/nova-video-player/aos-libtorrent
+	branch = ndk-r19
+[submodule "native/torrentd"]
+	path = native/torrentd
+	url = https://github.com/nova-video-player/aos-torrentd
