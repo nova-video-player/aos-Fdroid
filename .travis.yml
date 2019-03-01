@@ -1,2 +1,5 @@
+before_install:
+  - sudo apt update
+  - sudo apt install -y build-essential wget curl unzip openjdk-8-jdk python git pkg-config meson nasm
 script:
   - ./travis-build.sh
