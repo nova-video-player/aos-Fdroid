@@ -21,6 +21,7 @@
 [submodule "native/audiocompress"]
 	path = native/audiocompress
 	url = https://github.com/nova-video-player/aos-audiocompress.git
+        branch = master
 [submodule "native/ffmpeg-android-builder"]
 	path = native/ffmpeg-android-builder
 	url = https://github.com/nova-video-player/aos-ffmpeg-android-builder.git
@@ -31,12 +32,15 @@
 [submodule "native/libyuv"]
 	path = native/libyuv
 	url = https://github.com/nova-video-player/aos-libyuv.git
+        branch = master
 [submodule "native/libnativehelper"]
 	path = native/libnativehelper
 	url = https://github.com/nova-video-player/aos-libnativehelper.git
+        branch = master
 [submodule "native/boost"]
 	path = native/boost
 	url = https://github.com/nova-video-player/aos-boost
+        branch = master
 [submodule "native/libtorrent"]
 	path = native/libtorrent
 	url = https://github.com/nova-video-player/aos-libtorrent
@@ -44,3 +48,4 @@
 [submodule "native/torrentd"]
 	path = native/torrentd
 	url = https://github.com/nova-video-player/aos-torrentd
+        branch = master
