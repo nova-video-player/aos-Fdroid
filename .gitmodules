@@ -49,3 +49,11 @@
 	path = native/torrentd
 	url = https://github.com/nova-video-player/aos-torrentd
         branch = master
+[submodule "external/trakt-java"]
+        path = external/trakt-java
+        url = https://github.com/nova-video-player/trakt-java
+        branch = nova
+[submodule "external/jcifs-ng"]
+        path = external/jcifs-ng
+        url = https://github.com/nova-video-player/jcifs-ng
+        branch = nova
