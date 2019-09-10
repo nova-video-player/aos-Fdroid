@@ -5,15 +5,15 @@
 [submodule "FileCoreLibrary"]
 	path = FileCoreLibrary
 	url = https://github.com/nova-video-player/aos-FileCoreLibrary.git
-	branch = nova
+	branch = androidx
 [submodule "MediaLib"]
 	path = MediaLib
 	url = https://github.com/nova-video-player/aos-MediaLib.git
-	branch = nova
+	branch = androidx
 [submodule "Video"]
 	path = Video
 	url = https://github.com/nova-video-player/aos-Video.git
-	branch = nova
+	branch = androidx
 [submodule "native/avos"]
 	path = native/avos
 	url = https://github.com/nova-video-player/aos-avos.git
