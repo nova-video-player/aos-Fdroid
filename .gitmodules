@@ -39,7 +39,7 @@
         branch = master
 [submodule "native/boost"]
 	path = native/boost
-	url = https://github.com/nova-video-player/aos-boost
+	url = https://github.com/nova-video-player/aos-boost-android-builder/
         branch = master
 [submodule "native/libtorrent"]
 	path = native/libtorrent
