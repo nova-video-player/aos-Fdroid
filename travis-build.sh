@@ -26,7 +26,7 @@ bash -c "while true; do echo \$(date) - building ...; sleep $PING_SLEEP; done" &
 PING_LOOP_PID=$!
 
 # clean pre-builds for full build
-make clean_prebuilt
+#make clean_prebuilt
 make >> $BUILD_OUTPUT 2>&1
 
 # The build finished without returning an error so dump a tail of the output
