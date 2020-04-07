@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -ex
-version=v4.43
+version=$1
 rm -f manifest.xml
 wget https://github.com/nova-video-player/aos-AVP/releases/download/$version/manifest.xml
 for p in $(xmlstarlet sel -t -m //project -v ./@path -n manifest.xml);do
