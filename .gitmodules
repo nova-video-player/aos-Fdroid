@@ -5,15 +5,15 @@
 [submodule "FileCoreLibrary"]
 	path = FileCoreLibrary
 	url = https://github.com/nova-video-player/aos-FileCoreLibrary.git
-	branch = androidx
+	branch = v4-jcifsng
 [submodule "MediaLib"]
 	path = MediaLib
 	url = https://github.com/nova-video-player/aos-MediaLib.git
-	branch = androidx
+	branch = v4-jcifsng
 [submodule "Video"]
 	path = Video
 	url = https://github.com/nova-video-player/aos-Video.git
-	branch = androidx
+	branch = androidx-jcifsng
 [submodule "native/avos"]
 	path = native/avos
 	url = https://github.com/nova-video-player/aos-avos.git
@@ -29,6 +29,7 @@
 [submodule "native/dav1d-android-builder"]
 	path = native/dav1d-android-builder
 	url = https://github.com/nova-video-player/aos-dav1d-android-builder.git
+	branch = master
 [submodule "native/libyuv"]
 	path = native/libyuv
 	url = https://github.com/nova-video-player/aos-libyuv.git
@@ -44,7 +45,7 @@
 [submodule "native/libtorrent"]
 	path = native/libtorrent
 	url = https://github.com/nova-video-player/aos-libtorrent
-	branch = ndk-r19
+	branch = gen_v1.2.5
 [submodule "native/torrentd"]
 	path = native/torrentd
 	url = https://github.com/nova-video-player/aos-torrentd
@@ -53,7 +54,11 @@
 	path = external/jcifs-ng
 	url = https://github.com/nova-video-player/jcifs-ng
 	branch = nova
-[submodule "external/trakt-java"]
-	path = external/trakt-java
-	url = https://github.com/nova-video-player/trakt-java
+[submodule "external/cling"]
+	path = external/cling
+	url = https://github.com/nova-video-player/cling
+	branch = nova
+[submodule "external/seamless"]
+	path = external/seamless
+	url = https://github.com/nova-video-player/seamless
 	branch = nova
