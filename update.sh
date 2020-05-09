@@ -15,7 +15,7 @@ cpatch=$(printf "%02d" $vpatch)
 code=${cmajor}${cminor}${cpatch}
 
 rm -f manifest.xml
-wget https://github.com/nova-video-player/aos-AVP/releases/download/$version/manifest.xml
+wget https://github.com/nova-video-player/aos-AVP/releases/download/v${version}/manifest.xml
 for p in $(xmlstarlet sel -t -m //project -v ./@path -n manifest.xml);do
     rev=$(xmlstarlet sel -t -m //project'[@path="'$p'"]' -v ./@revision -n manifest.xml)
     (
