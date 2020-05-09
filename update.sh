@@ -27,6 +27,6 @@ for p in $(xmlstarlet sel -t -m //project -v ./@path -n manifest.xml);do
 done
 git commit -m "v${version}"
 git push
-git tag -a "v${version} c${code}" -m "v${version} release"
+git tag -a "v${version}_c${code}" -m "v${version} release"
 git push --tags
 
