@@ -25,6 +25,20 @@ for p in $(xmlstarlet sel -t -m //project -v ./@path -n manifest.xml);do
     )
     git add $p
 done
+
+rm -f AndroidManifest.xml
+cat > AndroidManifest.xml <<EOF
+<?xml version="1.0"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.courville.nova"
+    android:versionCode="$code"
+    android:versionName="$version"
+    />
+
+EOF
+git add AndroidManifest.xml
+
 git commit -m "v${version}"
 git push
 git tag -a "v${version}_c${code}" -m "v${version} release"
