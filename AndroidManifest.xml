@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.courville.nova"
-    android:versionCode="404808"
-    android:versionName="4.48.8"
+    android:versionCode="404809"
+    android:versionName="4.48.9"
     />
 
