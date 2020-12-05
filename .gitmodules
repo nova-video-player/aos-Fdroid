@@ -62,3 +62,6 @@
 	path = external/seamless
 	url = https://github.com/nova-video-player/seamless
 	branch = nova
+[submodule "native/opus-android-builder"]
+	path = native/opus-android-builder
+	url = https://github.com/nova-video-player/opus-android-builder.git
