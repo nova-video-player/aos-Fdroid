@@ -65,3 +65,6 @@
 [submodule "native/opus-android-builder"]
 	path = native/opus-android-builder
 	url = https://github.com/nova-video-player/opus-android-builder.git
+[submodule "native/openssl-android-builder"]
+	path = native/openssl-android-builder
+	url = https://github.com/nova-video-player/openssl-android-builder.git

@@ -16,10 +16,10 @@ jobs:
     - uses: actions/checkout@v1
       with:
         submodules: true
-    - name: set up JDK 1.8
+    - name: set up JDK 11
       uses: actions/setup-java@v1
       with:
-        java-version: 1.8
+        java-version: 11
     - name: install packages
       run: |
         sudo apt-get update || sudo apt-get update
@@ -37,4 +37,4 @@ jobs:
     - name: build
       run: |
         cd Video
-        ./gradlew aNR
+        ./gradlew -Psponsor -PadultScrape aNR
