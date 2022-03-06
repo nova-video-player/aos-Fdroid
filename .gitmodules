@@ -42,10 +42,6 @@
 	path = native/boost
 	url = https://github.com/nova-video-player/aos-boost-android-builder/
         branch = master
-[submodule "native/libtorrent"]
-	path = native/libtorrent
-	url = https://github.com/nova-video-player/aos-libtorrent
-	branch = gen_v1.2.5
 [submodule "native/torrentd"]
 	path = native/torrentd
 	url = https://github.com/nova-video-player/aos-torrentd
