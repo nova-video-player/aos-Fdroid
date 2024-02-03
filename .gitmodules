@@ -46,18 +46,6 @@
 	path = native/torrentd
 	url = https://github.com/nova-video-player/aos-torrentd
         branch = master
-[submodule "external/jcifs-ng"]
-	path = external/jcifs-ng
-	url = https://github.com/nova-video-player/jcifs-ng
-	branch = nova
-[submodule "external/cling"]
-	path = external/cling
-	url = https://github.com/nova-video-player/cling
-	branch = nova
-[submodule "external/seamless"]
-	path = external/seamless
-	url = https://github.com/nova-video-player/seamless
-	branch = nova
 [submodule "native/opus-android-builder"]
 	path = native/opus-android-builder
 	url = https://github.com/nova-video-player/opus-android-builder.git
