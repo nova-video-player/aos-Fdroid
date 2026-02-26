@@ -62,3 +62,27 @@
 	path = native/libmysofa-android-builder
 	url = https://github.com/nova-video-player/libmysofa-android-builder.git
 	branch = main
+[submodule "native/prebuilt/ffmpeg"]
+	path = native/prebuilt/ffmpeg
+	url = https://github.com/nova-video-player/prebuilt-ffmpeg.git
+	branch = v8_0
+[submodule "native/prebuilt/opus"]
+	path = native/prebuilt/opus
+	url = https://github.com/nova-video-player/prebuilt-opus.git
+	branch = main
+[submodule "native/prebuilt/dav1d"]
+	path = native/prebuilt/dav1d
+	url = https://github.com/nova-video-player/prebuilt-dav1d.git
+	branch = v1_5
+[submodule "native/prebuilt/openssl"]
+	path = native/prebuilt/openssl
+	url = https://github.com/nova-video-player/prebuilt-openssl.git
+	branch = v3_5
+[submodule "native/prebuilt/libmysofa"]
+	path = native/prebuilt/libmysofa
+	url = https://github.com/nova-video-player/prebuilt-libmysofa.git
+	branch = v1_3
+[submodule "native/prebuilt/torrentd"]
+	path = native/prebuilt/torrentd
+	url = https://github.com/nova-video-player/prebuilt-torrentd.git
+	branch = main
